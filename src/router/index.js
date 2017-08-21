@@ -42,6 +42,9 @@ export default new Router({
             }, {
                 path: '/drag',
                 component: resolve => require(['../components/pages/DragList.vue'], resolve)
+            }, {
+                path: '/echarsline',
+                component: resolve => require(['../views/charts/line.vue'], resolve)
             }
         ]
     },{

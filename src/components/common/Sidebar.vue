@@ -76,8 +76,19 @@
                     },
                     {
                         icon: 'el-icon-star-on',
-                        index: 'basecharts',
-                        title: '图表'
+                        index: '4',
+                        title: '图表',
+                        subs: [
+                            {
+                                icon: 'el-icon-star-on',
+                                index: 'basecharts',
+                                title: 'schart图表'
+                            }, {
+                                icon: 'el-icon-stat-on',
+                                index: 'echarsline',
+                                title: 'echar折线图'
+                            }
+                        ]
                     },
                     {
                         icon: 'el-icon-upload2',
