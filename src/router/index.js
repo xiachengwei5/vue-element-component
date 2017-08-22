@@ -25,6 +25,9 @@ export default new Router({
                 path: '/vuetable',
                 component: resolve => require(['../components/pages/VueTable.vue'], resolve)
             }, {
+                path: '/dynamictable',
+                component: resolve => require(['../views/table/dynamictable.vue'], resolve)
+            }, {
                 path: '/baseform',
                 component: resolve => require(['../components/pages/BaseForm.vue'], resolve)
             }, {
@@ -45,6 +48,12 @@ export default new Router({
             }, {
                 path: '/echarsline',
                 component: resolve => require(['../views/charts/line.vue'], resolve)
+            }, {
+                path: '/backToTop',
+                component: resolve => require(['../views/components/backToTop.vue'], resolve)
+            }, {
+                path: '/wave',
+                component: resolve => require(['../views/components/mixin.vue'], resolve)
             }
         ]
     },{

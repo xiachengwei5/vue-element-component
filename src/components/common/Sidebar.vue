@@ -44,6 +44,11 @@
                                 icon: 'el-icon-menu',
                                 index: 'vuetable',
                                 title: 'Vue表格组件'
+                            },
+                            {
+                                icon: 'el-icon-menu',
+                                index: 'dynamictable',
+                                title: '动态表格'
                             }
                         ]
                     },
@@ -84,9 +89,26 @@
                                 index: 'basecharts',
                                 title: 'schart图表'
                             }, {
-                                icon: 'el-icon-stat-on',
+                                icon: 'el-icon-star-on',
                                 index: 'echarsline',
                                 title: 'echar折线图'
+                            }
+                        ]
+                    },
+                    {
+                        icon: 'el-icon-circle-check',
+                        index: '5',
+                        title: '小组件',
+                        subs: [
+                            {
+                                icon: 'el-icon-circle-check',
+                                index: 'backToTop',
+                                title: '返回顶部'
+                            },
+                            {
+                                icon: 'el-icon-circle-check',
+                                index: 'wave',
+                                title: '水波纹效果'
                             }
                         ]
                     },
